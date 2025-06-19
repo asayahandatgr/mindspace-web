@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Notification Scrollbar Styles */
+.notification-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.notification-scrollbar::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.notification-scrollbar::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 3px;
+}
+
+.notification-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #555;
+} 
